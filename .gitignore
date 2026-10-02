@@ -1,0 +1,23 @@
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+.DS_Store
+.env
+.env.*
+!.env.example
+
+# Local environments and editor settings
+.venv/
+venv/
+.idea/
+.vscode/
+
+# Generated model and experiment outputs
+checkpoints/
+outputs/
+logs/
+wandb/
