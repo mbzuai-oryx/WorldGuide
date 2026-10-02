@@ -47,7 +47,7 @@ def _default_model_path() -> str:
 
 
 def _default_action_ckpt() -> str:
-    return os.environ.get("ACTION_CKPT", "ckpts/worldguide_action/diffusion_pytorch_model.safetensors")
+    return os.environ.get("ACTION_CKPT", "ckpts/WorldGuide-Ckpt/transformer/diffusion_pytorch_model.safetensors")
 
 
 def sanitize_filename(value: str) -> str:
@@ -794,7 +794,7 @@ python3 hyvideo/run_step_prompts_v5_multi_gpu.py \
   --launch_stagger_sec 0 \
   --resume true \
   --model_path ckpts/HunyuanVideo-1.5 \
-  --action_ckpt ckpts/worldguide_action/diffusion_pytorch_model.safetensors \
+  --action_ckpt ckpts/WorldGuide-Ckpt/transformer/diffusion_pytorch_model.safetensors \
   --step_video_length 45 \
   --num_inference_steps 50 \
   --guidance_scale 7.5 \
@@ -820,7 +820,7 @@ python3 hyvideo/run_step_prompts_v5_multi_gpu.py \
 
 """
 
-# PYTORCH_ALLOC_CONF=expandable_segments:True python3 hyvideo/run_step_prompts_v5_multi_gpu.py   --manifest_path data/test_manifest.json   --output_root ./outputs/worldguide_step_caption_v5_testdata_retry2   --gpu_ids 0,1,2,3   --max_parallel_jobs 4   --launch_stagger_sec 0   --master_port_base 29500   --model_path ckpts/HunyuanVideo-1.5   --action_ckpt ckpts/worldguide_action/diffusion_pytorch_model.safetensors  --step_video_length 33   --num_inference_steps 30   --guidance_scale 6.0   --flow_shift 5.0   --reference_source generated_prev   --continuity_mode stateless_prompt_ref   --reference_frame_mode last   --chunk_latent_frames 9   --memory_frames 20   --temporal_context_size 12   --memory_frame_policy recent   --resolution 480p   --aspect_ratio 16:9   --height 480   --width 832   --output_fps 16   --dtype bf16   --seed 3208
+# PYTORCH_ALLOC_CONF=expandable_segments:True python3 hyvideo/run_step_prompts_v5_multi_gpu.py   --manifest_path data/test_manifest.json   --output_root ./outputs/worldguide_step_caption_v5_testdata_retry2   --gpu_ids 0,1,2,3   --max_parallel_jobs 4   --launch_stagger_sec 0   --master_port_base 29500   --model_path ckpts/HunyuanVideo-1.5   --action_ckpt ckpts/WorldGuide-Ckpt/transformer/diffusion_pytorch_model.safetensors  --step_video_length 33   --num_inference_steps 30   --guidance_scale 6.0   --flow_shift 5.0   --reference_source generated_prev   --continuity_mode stateless_prompt_ref   --reference_frame_mode last   --chunk_latent_frames 9   --memory_frames 20   --temporal_context_size 12   --memory_frame_policy recent   --resolution 480p   --aspect_ratio 16:9   --height 480   --width 832   --output_fps 16   --dtype bf16   --seed 3208
 
 
 # 0: 0–33
@@ -842,7 +842,7 @@ python3 hyvideo/run_step_prompts_v5_multi_gpu.py \
 #   --launch_stagger_sec 0 \
 #   --resume true \
 #   --model_path ckpts/HunyuanVideo-1.5 \
-#   --action_ckpt ckpts/worldguide_action/diffusion_pytorch_model.safetensors \
+#   --action_ckpt ckpts/WorldGuide-Ckpt/transformer/diffusion_pytorch_model.safetensors \
 #   --step_video_length 33 \
 #   --num_inference_steps 30 \
 #   --guidance_scale 6.0 \

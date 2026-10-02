@@ -27,9 +27,7 @@ from hyvideo import run_step_prompts_v5_multi_gpu as v5_multi_gpu
 
 
 DEFAULT_ACTION_CKPT = (
-    "ckpts/worldguide_action/"
-    "HY_WorldPlay_Ckpt6_mem/checkpoint-2385/transformer/"
-    "diffusion_pytorch_model.safetensors"
+    "ckpts/WorldGuide-Ckpt/transformer/diffusion_pytorch_model.safetensors"
 )
 
 FORCED_OPTIONS = {
@@ -120,7 +118,7 @@ python3 hyvideo/run_eval_mem_multi_gpu.py \
     --master_port_base 29500 \
     --resume true \
     --model_path ckpts/HunyuanVideo-1.5 \
-    --action_ckpt ckpts/worldguide_action/diffusion_pytorch_model.safetensors \
+    --action_ckpt ckpts/WorldGuide-Ckpt/transformer/diffusion_pytorch_model.safetensors \
     --num_inference_steps 10 \
     --guidance_scale 7.5 \
     --flow_shift 5.0 \

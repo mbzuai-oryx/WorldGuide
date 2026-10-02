@@ -13,8 +13,8 @@ export MODEL_PATH="${MODEL_PATH:-ckpts/HunyuanVideo-1.5}"
 export NORMALIZED_MANIFEST="${NORMALIZED_MANIFEST:-data/train_manifest_precomputed.json}"
 export RAW_MANIFEST="${RAW_MANIFEST:-data/train_manifest.json}"
 export ORIGAMI_FEATURE_SOURCE="${ORIGAMI_FEATURE_SOURCE:-precomputed}"
-export LOAD_FROM_DIR="${LOAD_FROM_DIR:-ckpts/HunyuanVideo-1.5/transformer/480p_i2v}"
-export AR_ACTION_LOAD_FROM_DIR="${AR_ACTION_LOAD_FROM_DIR:-ckpts/worldguide_action/diffusion_pytorch_model.safetensors}"
+export LOAD_FROM_DIR="${LOAD_FROM_DIR:-ckpts/WorldGuide-Ckpt/transformer}"
+export AR_ACTION_LOAD_FROM_DIR="${AR_ACTION_LOAD_FROM_DIR:-}"
 export OUTPUT_DIR="${OUTPUT_DIR:-./outputs/worldguide_train}"
 
 # Training Schedule

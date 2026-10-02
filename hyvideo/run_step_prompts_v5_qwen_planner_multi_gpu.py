@@ -46,14 +46,14 @@ export PYTHONPATH=$(pwd):$PYTHONPATH
 PYTORCH_ALLOC_CONF=expandable_segments:True \
 python3 hyvideo/run_step_prompts_v5_qwen_planner_multi_gpu.py \
   --manifest_path data/test_manifest.json \
-  --planner_model_path ckpts/worldguide_planner \
+  --planner_model_path ckpts/WorldGuide-Ckpt/text_encoder/llm \
   --output_root ./outputs/worldguide_v5_qwen_planner_testdata \
   --gpu_ids 0,1,2,3,4,5,6,7 \
   --max_parallel_jobs 8 \
   --launch_stagger_sec 0 \
   --resume true \
   --model_path ckpts/HunyuanVideo-1.5 \
-  --action_ckpt ckpts/worldguide_action/diffusion_pytorch_model.safetensors \
+  --action_ckpt ckpts/WorldGuide-Ckpt/transformer/diffusion_pytorch_model.safetensors \
   --step_video_length 33 \
   --num_inference_steps 30 \
   --guidance_scale 6.0 \

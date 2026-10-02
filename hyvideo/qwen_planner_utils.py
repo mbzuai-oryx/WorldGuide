@@ -26,7 +26,7 @@ ACTION_HISTORY_PLANNER_SYSTEM_PROMPT = (
     "Output ONLY the action description as one clear sentence."
 )
 DEFAULT_PLANNER_MODEL_PATH = str(
-    Path(__file__).resolve().parents[2] / "YUME_VLA/Checkpoint/Phase1_Planner4/final"
+    Path(__file__).resolve().parents[1] / "ckpts/WorldGuide-Ckpt/text_encoder/llm"
 )
 DEFAULT_MAX_PLANNED_STEPS = 40
 CATEGORY_RE = re.compile(r"Category:\s*([^.]+)\.", re.IGNORECASE)
@@ -123,7 +123,7 @@ def split_completion(prediction: str) -> tuple[str, bool]:
 
 def add_planner_arguments(parser: argparse.ArgumentParser) -> argparse.ArgumentParser:
     parser.add_argument("--planner_model_path", type=str, default=DEFAULT_PLANNER_MODEL_PATH,
-                        help="Trained Qwen planner checkpoint (HF directory); defaults to Phase1_Planner4/final.")
+                        help="Trained Qwen planner checkpoint (HF directory); defaults to ckpts/WorldGuide-Ckpt/text_encoder/llm.")
     parser.add_argument("--planner_processor_path", type=str, default=None,
                         help="Optional processor directory; defaults to --planner_model_path.")
     parser.add_argument("--planner_visual_feedback", type=str_to_bool, nargs="?", const=True, default=True,

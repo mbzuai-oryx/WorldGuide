@@ -4449,21 +4449,37 @@ class HunyuanVideo_1_5_Pipeline(DiffusionPipeline):
         else:
             transformer_init_device = device
 
-        supported_transformer_version = os.listdir(
-            os.path.join(cached_folder, "transformer")
+        base_transformer_dir = os.path.join(
+            cached_folder, "transformer", transformer_version
         )
-        if transformer_version not in supported_transformer_version:
+        # The WorldGuide checkpoint is a full superset of the base DiT weights, so
+        # the base transformer folder is optional when an action checkpoint is
+        # given: if it is absent, build the model from the checkpoint's config.json.
+        action_config_dir = (
+            os.path.dirname(action_ckpt) if action_ckpt is not None else None
+        )
+        build_from_action_config = (
+            action_config_dir is not None
+            and not os.path.isdir(base_transformer_dir)
+            and os.path.isfile(os.path.join(action_config_dir, "config.json"))
+        )
+        if not build_from_action_config and not os.path.isdir(base_transformer_dir):
             raise ValueError(
-                f"Could not find {transformer_version} in {cached_folder}."
-                f"Only {supported_transformer_version} are available."
+                f"Could not find transformer/{transformer_version} in {cached_folder}, "
+                "and no config.json next to --action_ckpt."
             )
 
         vae_inference_config = cls.get_vae_inference_config()
-        transformer = HunyuanVideo_1_5_DiffusionTransformer.from_pretrained(
-            os.path.join(cached_folder, "transformer", transformer_version),
-            torch_dtype=transformer_dtype,
-            low_cpu_mem_usage=False,
-        )
+        if build_from_action_config:
+            transformer = HunyuanVideo_1_5_DiffusionTransformer.from_config(
+                HunyuanVideo_1_5_DiffusionTransformer.load_config(action_config_dir)
+            ).to(transformer_dtype)
+        else:
+            transformer = HunyuanVideo_1_5_DiffusionTransformer.from_pretrained(
+                base_transformer_dir,
+                torch_dtype=transformer_dtype,
+                low_cpu_mem_usage=False,
+            )
 
         transformer.add_action_parameters()
         if action_ckpt is not None:

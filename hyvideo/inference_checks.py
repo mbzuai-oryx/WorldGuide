@@ -32,9 +32,11 @@ def check_checkpoint_tree(root: Path) -> int:
 
 def check_inference_checkpoints(args) -> int:
     root = Path(args.model_path)
-    checked = sum(check_checkpoint_tree(root / component) for component in (
-        f"transformer/{args.resolution}_i2v", "text_encoder", "vae",
-    ))
+    components = ["text_encoder", "vae"]
+    # The base transformer is optional when a full action checkpoint is given.
+    if not args.action_ckpt or (root / f"transformer/{args.resolution}_i2v").is_dir():
+        components.insert(0, f"transformer/{args.resolution}_i2v")
+    checked = sum(check_checkpoint_tree(root / component) for component in components)
     if args.action_ckpt:
         with Path(args.action_ckpt).open("rb") as handle:
             if len(handle.read(8)) != 8:

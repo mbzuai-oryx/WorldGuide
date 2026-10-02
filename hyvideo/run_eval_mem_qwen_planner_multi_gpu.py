@@ -52,7 +52,7 @@ if __name__ == "__main__":
 
   python3 hyvideo/run_eval_mem_qwen_planner_multi_gpu.py \
     --manifest_path data/test_manifest.json \
-    --planner_model_path ckpts/worldguide_planner \
+    --planner_model_path ckpts/WorldGuide-Ckpt/text_encoder/llm \
     --output_root ./outputs/testdata_eval_mem_qwen_planner_ckpt2385_33frames \
     --gpu_ids 0,1,2,3,4,5,6,7 \
     --max_parallel_jobs 8 \

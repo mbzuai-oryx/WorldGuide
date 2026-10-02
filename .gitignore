@@ -21,3 +21,4 @@ checkpoints/
 outputs/
 logs/
 wandb/
+checkpoint/

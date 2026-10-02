@@ -25,8 +25,8 @@ exec python3 \
   --master_port_base 29500 \
   --resume true \
   --model_path ckpts/HunyuanVideo-1.5 \
-  --action_ckpt ckpts/worldguide_action/diffusion_pytorch_model.safetensors \
-  --planner_model_path ckpts/worldguide_planner \
+  --action_ckpt ckpts/WorldGuide-Ckpt/transformer/diffusion_pytorch_model.safetensors \
+  --planner_model_path ckpts/WorldGuide-Ckpt/text_encoder/llm \
   --num_inference_steps 30 \
   --guidance_scale 7.5 \
   --flow_shift 5.0 \

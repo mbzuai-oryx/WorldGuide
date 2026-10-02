@@ -45,7 +45,7 @@ def _default_model_path() -> str:
 
 
 def _default_action_ckpt() -> str:
-    return os.environ.get("ACTION_CKPT", "ckpts/worldguide_action/diffusion_pytorch_model.safetensors")
+    return os.environ.get("ACTION_CKPT", "ckpts/WorldGuide-Ckpt/transformer/diffusion_pytorch_model.safetensors")
 
 
 def is_rank0() -> bool:
