@@ -94,3 +94,5 @@ html{scroll-padding-top:92px}
 .section-rail a[aria-current]:hover .rail-frame{background:linear-gradient(135deg,#205b83,#198d8b)}
 .section-rail .rail-label{right:43px}
 @media(prefers-reduced-motion:reduce){.rail-frame,.rail-frame>span{transition:none}}
+.resource-chip .chip-icon{width:17px;height:17px;font-size:17px;line-height:1;flex:none;margin-right:-3px}
+.resource-chip .ai-arxiv{color:#b31b1b}
