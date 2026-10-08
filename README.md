@@ -18,7 +18,7 @@
 </div>
 
 <p align="center">
-  <img src="assets/WorldGuide_main_v10.png" alt="WorldGuide Architecture" width="95%"/>
+  <img src="assets/WorldGuide_main_v11.png" alt="WorldGuide Architecture" width="95%"/>
 </p>
 
 ## Overview
@@ -29,7 +29,7 @@
 - **Video DiT Executor** — a diffusion-transformer video generator conditioned on the planned action and cached visual-latent memory, producing consistent rollouts without appearance drift.
 
 <p align="center">
-  <img src="assets/WorldGuide_vs_all_v6.png" alt="WorldGuide vs. open-loop and closed-loop baselines" width="95%"/>
+  <img src="assets/WorldGuide_vs_all_v7.png" alt="WorldGuide vs. open-loop and closed-loop baselines" width="95%"/>
   <br><em>(a) Open-loop generation drifts and cannot correct mistakes. (b) Planning with a frozen executor still fails to complete actions. (c) WorldGuide learns atomic execution and plans until completion.</em>
 </p>
 
