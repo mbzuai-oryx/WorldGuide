@@ -1,0 +1,1657 @@
+{
+  "schemaVersion": 1,
+  "title": "WorldGuide",
+  "dataset": "ankanmbz/worldguide-results",
+  "revision": "main",
+  "models": [
+    {
+      "id": "Our",
+      "label": "WorldGuide",
+      "ours": true
+    },
+    {
+      "id": "Cosmos2.5",
+      "label": "Cosmos-Predict2.5",
+      "ours": false
+    },
+    {
+      "id": "HunyuanVideo-1.5",
+      "label": "HunyuanVideo-1.5",
+      "ours": false
+    },
+    {
+      "id": "MiniMax-H3",
+      "label": "MiniMax-H3",
+      "ours": false
+    },
+    {
+      "id": "SkyReels",
+      "label": "SkyReels",
+      "ours": false
+    },
+    {
+      "id": "LTX-2.5",
+      "label": "LTX-2.5",
+      "ours": false
+    },
+    {
+      "id": "Barnini",
+      "label": "Bernini*",
+      "ours": false
+    },
+    {
+      "id": "TempAct",
+      "label": "TempAct*",
+      "ours": false
+    },
+    {
+      "id": "PhysAgent",
+      "label": "PhysAgent*",
+      "ours": false
+    }
+  ],
+  "samples": [
+    {
+      "id": "buildingblock_horse_13",
+      "filename": "buildingblock_horse_13.mp4",
+      "title": "Block Horse",
+      "category": "Building blocks",
+      "videos": {
+        "Our": {
+          "path": "Our/buildingblock_horse_13.mp4",
+          "poster": "posters/Our/buildingblock_horse_13.jpg",
+          "duration": 20.062,
+          "width": 832,
+          "height": 480,
+          "bytes": 1028521,
+          "sha256": "af4bff61eb99beec25bec5ceb389de07887e0550f3ebfc49d6b9dfcd752ef6c5"
+        },
+        "Cosmos2.5": {
+          "path": "Cosmos2.5/buildingblock_horse_13.mp4",
+          "poster": "posters/Cosmos2.5/buildingblock_horse_13.jpg",
+          "duration": 60.0,
+          "width": 1280,
+          "height": 704,
+          "bytes": 12196322,
+          "sha256": "2135f9ac7fb0615c187038f2e625535e0fcf3649432df6ccf9956ebfb56ad90d"
+        },
+        "HunyuanVideo-1.5": {
+          "path": "HunyuanVideo-1.5/buildingblock_horse_13.mp4",
+          "poster": "posters/HunyuanVideo-1.5/buildingblock_horse_13.jpg",
+          "duration": 60.0,
+          "width": 848,
+          "height": 480,
+          "bytes": 32997701,
+          "sha256": "8010e746565f1af42b857efc0d59a76be93cc17a3457c1240c40443f162f77f7"
+        },
+        "MiniMax-H3": {
+          "path": "MiniMax-H3/buildingblock_horse_13.mp4",
+          "poster": "posters/MiniMax-H3/buildingblock_horse_13.jpg",
+          "duration": 30.0,
+          "width": 960,
+          "height": 544,
+          "bytes": 1724409,
+          "sha256": "f31a1932957e8946bb2e6ccd45013f487978171f55ad37a52442b7b373504e12"
+        },
+        "SkyReels": {
+          "path": "SkyReels/buildingblock_horse_13.mp4",
+          "poster": "posters/SkyReels/buildingblock_horse_13.jpg",
+          "duration": 30.0,
+          "width": 832,
+          "height": 480,
+          "bytes": 15381335,
+          "sha256": "c89cfed28ad7befaeb15e8d1bf9a7c101ddcd016b95004afb093b68399a2ab7e"
+        },
+        "LTX-2.5": {
+          "path": "LTX-2.5/buildingblock_horse_13.mp4",
+          "poster": "posters/LTX-2.5/buildingblock_horse_13.jpg",
+          "duration": 30.0,
+          "width": 768,
+          "height": 512,
+          "bytes": 2943470,
+          "sha256": "23e58d01aaf06a9f29b847bf216acd792cd639046fbabf548913fc2a1c0d863f"
+        },
+        "Barnini": {
+          "path": "Barnini/buildingblock_horse_13.mp4",
+          "poster": "posters/Barnini/buildingblock_horse_13.jpg",
+          "duration": 5.062,
+          "width": 848,
+          "height": 480,
+          "bytes": 9057179,
+          "sha256": "e2c6b620bd3d053dd2538fe21556aec745b8942c283ae3a1510fef7405b8cd19"
+        },
+        "TempAct": {
+          "path": "TempAct/buildingblock_horse_13.mp4",
+          "poster": "posters/TempAct/buildingblock_horse_13.jpg",
+          "duration": 21.062,
+          "width": 832,
+          "height": 480,
+          "bytes": 14408969,
+          "sha256": "a79cfe0e51cb54a3c0d5d4b75234e6748d0c4b5204d4f4980c9e4eeb1c0b03fe"
+        },
+        "PhysAgent": {
+          "path": "PhysAgent/buildingblock_horse_13.mp4",
+          "poster": "posters/PhysAgent/buildingblock_horse_13.jpg",
+          "duration": 16.1,
+          "width": 832,
+          "height": 480,
+          "bytes": 8085787,
+          "sha256": "1c54d6a1920ac0fdf04c820bd25ce93ac3a4c1d0404208f4306ac4891bc5a002"
+        }
+      }
+    },
+    {
+      "id": "buildingblock_horse_6",
+      "filename": "buildingblock_horse_6.mp4",
+      "title": "Block Horse",
+      "category": "Building blocks",
+      "videos": {
+        "Our": {
+          "path": "Our/buildingblock_horse_6.mp4",
+          "poster": "posters/Our/buildingblock_horse_6.jpg",
+          "duration": 10.062,
+          "width": 832,
+          "height": 480,
+          "bytes": 488566,
+          "sha256": "f37e662e91ee1e5c1234c40dc79ca2de0c3f2a2f9e660736489ab22c9929f2d8"
+        },
+        "Cosmos2.5": {
+          "path": "Cosmos2.5/buildingblock_horse_6.mp4",
+          "poster": "posters/Cosmos2.5/buildingblock_horse_6.jpg",
+          "duration": 60.0,
+          "width": 1280,
+          "height": 704,
+          "bytes": 11303745,
+          "sha256": "18d32dadfbaaeb18712630a0825c64ee6f3ab0df3f526b4a3fdbcf881d3f00c6"
+        },
+        "HunyuanVideo-1.5": {
+          "path": "HunyuanVideo-1.5/buildingblock_horse_6.mp4",
+          "poster": "posters/HunyuanVideo-1.5/buildingblock_horse_6.jpg",
+          "duration": 60.0,
+          "width": 848,
+          "height": 480,
+          "bytes": 33156496,
+          "sha256": "bd2426550ec303987bf35a9845da14bd2672d6add15bc74bc4f910b2bf4fa33f"
+        },
+        "MiniMax-H3": {
+          "path": "MiniMax-H3/buildingblock_horse_6.mp4",
+          "poster": "posters/MiniMax-H3/buildingblock_horse_6.jpg",
+          "duration": 30.0,
+          "width": 960,
+          "height": 544,
+          "bytes": 2042189,
+          "sha256": "c67a530d3da006b816ea1da17670fea309e0870b98993cdab843ea216048e540"
+        },
+        "SkyReels": {
+          "path": "SkyReels/buildingblock_horse_6.mp4",
+          "poster": "posters/SkyReels/buildingblock_horse_6.jpg",
+          "duration": 30.0,
+          "width": 832,
+          "height": 480,
+          "bytes": 9615384,
+          "sha256": "f0dcb4c9ea65a418ebc6d9dd8991ef9dd8b35d8263824ab6a22afbcd8937f2a4"
+        },
+        "LTX-2.5": {
+          "path": "LTX-2.5/buildingblock_horse_6.mp4",
+          "poster": "posters/LTX-2.5/buildingblock_horse_6.jpg",
+          "duration": 30.0,
+          "width": 768,
+          "height": 512,
+          "bytes": 2852750,
+          "sha256": "59b572f1fc7dc9183367eb528c9c85cef994a2452c553306656b60c899efba83"
+        },
+        "Barnini": {
+          "path": "Barnini/buildingblock_horse_6.mp4",
+          "poster": "posters/Barnini/buildingblock_horse_6.jpg",
+          "duration": 5.062,
+          "width": 848,
+          "height": 480,
+          "bytes": 8649623,
+          "sha256": "e6464e5a80f1b969494abb610183854479a00678702d490968d14536e3f85f0f"
+        },
+        "TempAct": {
+          "path": "TempAct/buildingblock_horse_6.mp4",
+          "poster": "posters/TempAct/buildingblock_horse_6.jpg",
+          "duration": 21.062,
+          "width": 832,
+          "height": 480,
+          "bytes": 13691703,
+          "sha256": "e22aa8da12acce75e4ccaacc8124da2b13c1e009156dcce1a1dd0f5a50206736"
+        },
+        "PhysAgent": {
+          "path": "PhysAgent/buildingblock_horse_6.mp4",
+          "poster": "posters/PhysAgent/buildingblock_horse_6.jpg",
+          "duration": 16.1,
+          "width": 832,
+          "height": 480,
+          "bytes": 7235800,
+          "sha256": "66f0cc30caffa0240437f801a94fa6d76260954a757300772e998ee68a93e51f"
+        }
+      }
+    },
+    {
+      "id": "buildingblock_tower_13",
+      "filename": "buildingblock_tower_13.mp4",
+      "title": "Block Tower",
+      "category": "Building blocks",
+      "videos": {
+        "Our": {
+          "path": "Our/buildingblock_tower_13.mp4",
+          "poster": "posters/Our/buildingblock_tower_13.jpg",
+          "duration": 11.062,
+          "width": 832,
+          "height": 480,
+          "bytes": 673240,
+          "sha256": "d98da34fa49b34535d047a8ec8be1a5554be19d7819dca5d1ebd38956fee8aba"
+        },
+        "Cosmos2.5": {
+          "path": "Cosmos2.5/buildingblock_tower_13.mp4",
+          "poster": "posters/Cosmos2.5/buildingblock_tower_13.jpg",
+          "duration": 23.25,
+          "width": 1280,
+          "height": 704,
+          "bytes": 4472670,
+          "sha256": "670e6e424e9d8bf6212db643b779d7700486a52d4dcae427017d343ac24bc8b0"
+        },
+        "HunyuanVideo-1.5": {
+          "path": "HunyuanVideo-1.5/buildingblock_tower_13.mp4",
+          "poster": "posters/HunyuanVideo-1.5/buildingblock_tower_13.jpg",
+          "duration": 8.0,
+          "width": 848,
+          "height": 480,
+          "bytes": 391075,
+          "sha256": "fdc0f8af6d978fdceebd5ee27c112b96f4605929ccc087a1460da3dc2251fbd6"
+        },
+        "MiniMax-H3": {
+          "path": "MiniMax-H3/buildingblock_tower_13.mp4",
+          "poster": "posters/MiniMax-H3/buildingblock_tower_13.jpg",
+          "duration": 30.0,
+          "width": 960,
+          "height": 544,
+          "bytes": 2094276,
+          "sha256": "15697d743e15e86934e1bad2a284b15840c98c334e695947118f66d0085282fe"
+        },
+        "SkyReels": {
+          "path": "SkyReels/buildingblock_tower_13.mp4",
+          "poster": "posters/SkyReels/buildingblock_tower_13.jpg",
+          "duration": 30.0,
+          "width": 832,
+          "height": 480,
+          "bytes": 17821594,
+          "sha256": "b4482679d78d6b16fe9aa94e774aacac6a599e044099076b7521544a846082ba"
+        },
+        "LTX-2.5": {
+          "path": "LTX-2.5/buildingblock_tower_13.mp4",
+          "poster": "posters/LTX-2.5/buildingblock_tower_13.jpg",
+          "duration": 30.0,
+          "width": 768,
+          "height": 512,
+          "bytes": 3402339,
+          "sha256": "9e2448add6de1942db62d4aa956fbc48d9f61ef117b9dc7ef9e1f24695b1bbf6"
+        },
+        "Barnini": {
+          "path": "Barnini/buildingblock_tower_13.mp4",
+          "poster": "posters/Barnini/buildingblock_tower_13.jpg",
+          "duration": 5.062,
+          "width": 848,
+          "height": 480,
+          "bytes": 7473950,
+          "sha256": "db25cd9c562a2240f1fdf7dda54fda0f54a77344e062e3b1be4c63b33d8525a3"
+        },
+        "TempAct": {
+          "path": "TempAct/buildingblock_tower_13.mp4",
+          "poster": "posters/TempAct/buildingblock_tower_13.jpg",
+          "duration": 36.062,
+          "width": 832,
+          "height": 480,
+          "bytes": 23478904,
+          "sha256": "fd5c0ee1858b0c6e1e30e3391ae349f0994b568c35c4666d9cdd384cff388822"
+        },
+        "PhysAgent": {
+          "path": "PhysAgent/buildingblock_tower_13.mp4",
+          "poster": "posters/PhysAgent/buildingblock_tower_13.jpg",
+          "duration": 16.1,
+          "width": 832,
+          "height": 480,
+          "bytes": 8319403,
+          "sha256": "0b847999401035aa6cbc564e69626399ed18b5dcc7aceccddab927180847c060"
+        }
+      }
+    },
+    {
+      "id": "buildingblock_tower_18",
+      "filename": "buildingblock_tower_18.mp4",
+      "title": "Block Tower",
+      "category": "Building blocks",
+      "videos": {
+        "Our": {
+          "path": "Our/buildingblock_tower_18.mp4",
+          "poster": "posters/Our/buildingblock_tower_18.jpg",
+          "duration": 8.062,
+          "width": 832,
+          "height": 480,
+          "bytes": 394233,
+          "sha256": "26e4a140049b85027508a4a78b41d147f9e760f74f5a37b98634e2d3ffcbcd3e"
+        },
+        "Cosmos2.5": {
+          "path": "Cosmos2.5/buildingblock_tower_18.mp4",
+          "poster": "posters/Cosmos2.5/buildingblock_tower_18.jpg",
+          "duration": 60.0,
+          "width": 1280,
+          "height": 704,
+          "bytes": 7524484,
+          "sha256": "42afa8ca4a672c638baf2cf4198401fa1497127279fe13ac000a1a14f3bdcab1"
+        },
+        "HunyuanVideo-1.5": {
+          "path": "HunyuanVideo-1.5/buildingblock_tower_18.mp4",
+          "poster": "posters/HunyuanVideo-1.5/buildingblock_tower_18.jpg",
+          "duration": 60.0,
+          "width": 848,
+          "height": 480,
+          "bytes": 29200290,
+          "sha256": "9e018e0ec937b2cced9ac78c04ab0f71f1084aec5fe43929d51a0fc829624556"
+        },
+        "MiniMax-H3": {
+          "path": "MiniMax-H3/buildingblock_tower_18.mp4",
+          "poster": "posters/MiniMax-H3/buildingblock_tower_18.jpg",
+          "duration": 30.0,
+          "width": 960,
+          "height": 544,
+          "bytes": 1932478,
+          "sha256": "de490e3af8d5587d0b451a58bf6db9194ba702ee3edc813f21457c7e6ebae8c1"
+        },
+        "SkyReels": {
+          "path": "SkyReels/buildingblock_tower_18.mp4",
+          "poster": "posters/SkyReels/buildingblock_tower_18.jpg",
+          "duration": 30.0,
+          "width": 832,
+          "height": 480,
+          "bytes": 11809050,
+          "sha256": "b35f0e2bca969ac57fdde3dd2af1bed3399c3ebe4c346d1e6ccff7c88882ad43"
+        },
+        "LTX-2.5": {
+          "path": "LTX-2.5/buildingblock_tower_18.mp4",
+          "poster": "posters/LTX-2.5/buildingblock_tower_18.jpg",
+          "duration": 30.0,
+          "width": 768,
+          "height": 512,
+          "bytes": 3109571,
+          "sha256": "288ae058b83c08213bacecf934bf4ed5dc84833657029ff68829ea2bb50dd9cf"
+        },
+        "Barnini": {
+          "path": "Barnini/buildingblock_tower_18.mp4",
+          "poster": "posters/Barnini/buildingblock_tower_18.jpg",
+          "duration": 5.062,
+          "width": 848,
+          "height": 480,
+          "bytes": 7314352,
+          "sha256": "dc3e2bef6451e58ee9772fc51706350de9c72aa5ca4c3c87e94433d81f29ecc9"
+        },
+        "TempAct": {
+          "path": "TempAct/buildingblock_tower_18.mp4",
+          "poster": "posters/TempAct/buildingblock_tower_18.jpg",
+          "duration": 36.062,
+          "width": 832,
+          "height": 480,
+          "bytes": 24902656,
+          "sha256": "c1e95a657faa0fac499e6574962a5ce275f4e3c2fd776074601a37bf562be048"
+        },
+        "PhysAgent": {
+          "path": "PhysAgent/buildingblock_tower_18.mp4",
+          "poster": "posters/PhysAgent/buildingblock_tower_18.jpg",
+          "duration": 16.1,
+          "width": 832,
+          "height": 480,
+          "bytes": 8287918,
+          "sha256": "d020515ac33f9752d48053e144a5ec7829e6a663acdb20c5eff0e0922535131a"
+        }
+      }
+    },
+    {
+      "id": "burrito_roll__B7Hq1a4X-nM",
+      "filename": "burrito_roll__B7Hq1a4X-nM.mp4",
+      "title": "Burrito Roll",
+      "category": "Cooking",
+      "videos": {
+        "Our": {
+          "path": "Our/burrito_roll__B7Hq1a4X-nM.mp4",
+          "poster": "posters/Our/burrito_roll__B7Hq1a4X-nM.jpg",
+          "duration": 35.875,
+          "width": 832,
+          "height": 480,
+          "bytes": 4036598,
+          "sha256": "196b9444e6c2d0e178eef2abc098be20bd90717b0f754f679ed66a8e3e490fc6"
+        },
+        "Cosmos2.5": {
+          "path": "Cosmos2.5/burrito_roll__B7Hq1a4X-nM.mp4",
+          "poster": "posters/Cosmos2.5/burrito_roll__B7Hq1a4X-nM.jpg",
+          "duration": 75.562,
+          "width": 1280,
+          "height": 704,
+          "bytes": 10359893,
+          "sha256": "e719d6ecca5baf1b5b29bd10b27f5b22258a4d3e97f6aaca6a8a51850b1f6a47"
+        },
+        "HunyuanVideo-1.5": {
+          "path": "HunyuanVideo-1.5/burrito_roll__B7Hq1a4X-nM.mp4",
+          "poster": "posters/HunyuanVideo-1.5/burrito_roll__B7Hq1a4X-nM.jpg",
+          "duration": 26.0,
+          "width": 848,
+          "height": 480,
+          "bytes": 1687176,
+          "sha256": "1d6c1193186b080aa8a96c4d776d0ef15f0e23ef9e1109c447f2dd11b3f05fa9"
+        },
+        "MiniMax-H3": {
+          "path": "MiniMax-H3/burrito_roll__B7Hq1a4X-nM.mp4",
+          "poster": "posters/MiniMax-H3/burrito_roll__B7Hq1a4X-nM.jpg",
+          "duration": 30.0,
+          "width": 960,
+          "height": 544,
+          "bytes": 1944289,
+          "sha256": "83fc3a7da2d9f8dd43cc5e61ed50ad64428138cf7a7da91fb85af94c862da8b5"
+        },
+        "SkyReels": {
+          "path": "SkyReels/burrito_roll__B7Hq1a4X-nM.mp4",
+          "poster": "posters/SkyReels/burrito_roll__B7Hq1a4X-nM.jpg",
+          "duration": 30.0,
+          "width": 832,
+          "height": 480,
+          "bytes": 9849140,
+          "sha256": "355f12e90ceba4ef9e78ba0bb46a236234813beb0998bab68cb784f8c31c187b"
+        },
+        "LTX-2.5": {
+          "path": "LTX-2.5/burrito_roll__B7Hq1a4X-nM.mp4",
+          "poster": "posters/LTX-2.5/burrito_roll__B7Hq1a4X-nM.jpg",
+          "duration": 30.0,
+          "width": 768,
+          "height": 512,
+          "bytes": 3725732,
+          "sha256": "5bc027ad24974f7226b10dfbd9d0f19d23985d82035560b57a3078a85568f401"
+        },
+        "Barnini": {
+          "path": "Barnini/burrito_roll__B7Hq1a4X-nM.mp4",
+          "poster": "posters/Barnini/burrito_roll__B7Hq1a4X-nM.jpg",
+          "duration": 5.062,
+          "width": 848,
+          "height": 480,
+          "bytes": 5694397,
+          "sha256": "b2f11f76ccc4ccaaae828cdf2544d833afe4c4175f72312509039155c40ce15c"
+        },
+        "TempAct": {
+          "path": "TempAct/burrito_roll__B7Hq1a4X-nM.mp4",
+          "poster": "posters/TempAct/burrito_roll__B7Hq1a4X-nM.jpg",
+          "duration": 12.062,
+          "width": 832,
+          "height": 480,
+          "bytes": 8365787,
+          "sha256": "94a091fb6608bc04db42a054d7c0e4ddfd42d7fafb7f91051a391c81f1382d29"
+        },
+        "PhysAgent": {
+          "path": "PhysAgent/burrito_roll__B7Hq1a4X-nM.mp4",
+          "poster": "posters/PhysAgent/burrito_roll__B7Hq1a4X-nM.jpg",
+          "duration": 32.1,
+          "width": 832,
+          "height": 480,
+          "bytes": 17322307,
+          "sha256": "073b5b71e7d8997f1b2702d9f189ab9eb866de44f99de87c73a34f539ed0e488"
+        }
+      }
+    },
+    {
+      "id": "dessert_cup__1UXXjxA74ZI",
+      "filename": "dessert_cup__1UXXjxA74ZI.mp4",
+      "title": "Strawberry Cheesecake Cups",
+      "category": "Cooking",
+      "videos": {
+        "Our": {
+          "path": "Our/dessert_cup__1UXXjxA74ZI.mp4",
+          "poster": "posters/Our/dessert_cup__1UXXjxA74ZI.jpg",
+          "duration": 93.562,
+          "width": 832,
+          "height": 480,
+          "bytes": 11166991,
+          "sha256": "6ed0a561c4a4c51f96470cf83a739057f46c7ec86265fd2ebf321f6eb27bfc5b"
+        },
+        "Cosmos2.5": {
+          "path": "Cosmos2.5/dessert_cup__1UXXjxA74ZI.mp4",
+          "poster": "posters/Cosmos2.5/dessert_cup__1UXXjxA74ZI.jpg",
+          "duration": 197.625,
+          "width": 1280,
+          "height": 704,
+          "bytes": 33378982,
+          "sha256": "64fd545747113ddec9604c10c890d723372e5229af423a3ba8c75e0f8ad52d16"
+        },
+        "HunyuanVideo-1.5": {
+          "path": "HunyuanVideo-1.5/dessert_cup__1UXXjxA74ZI.mp4",
+          "poster": "posters/HunyuanVideo-1.5/dessert_cup__1UXXjxA74ZI.jpg",
+          "duration": 68.0,
+          "width": 848,
+          "height": 480,
+          "bytes": 6180006,
+          "sha256": "f772b2fa900fd1882be5be25a54f2cb106888f9e2d50930e36885817f4bbfc63"
+        },
+        "MiniMax-H3": {
+          "path": "MiniMax-H3/dessert_cup__1UXXjxA74ZI.mp4",
+          "poster": "posters/MiniMax-H3/dessert_cup__1UXXjxA74ZI.jpg",
+          "duration": 30.0,
+          "width": 960,
+          "height": 544,
+          "bytes": 2966930,
+          "sha256": "bbf40d753d8af39d5614c1b6fc6a6f53e1f6675633012af8747e37e00436664e"
+        },
+        "SkyReels": {
+          "path": "SkyReels/dessert_cup__1UXXjxA74ZI.mp4",
+          "poster": "posters/SkyReels/dessert_cup__1UXXjxA74ZI.jpg",
+          "duration": 30.0,
+          "width": 832,
+          "height": 480,
+          "bytes": 11970301,
+          "sha256": "312838be74f84cac958c306ae23a676981ba99adfcfe983f4bf0d3a86409b2ec"
+        },
+        "LTX-2.5": {
+          "path": "LTX-2.5/dessert_cup__1UXXjxA74ZI.mp4",
+          "poster": "posters/LTX-2.5/dessert_cup__1UXXjxA74ZI.jpg",
+          "duration": 30.0,
+          "width": 768,
+          "height": 512,
+          "bytes": 4405191,
+          "sha256": "5268bd8f4bf477a59d97ac9ee93b2d254db202c3628c4297f3b4248d4e70cefc"
+        },
+        "Barnini": {
+          "path": "Barnini/dessert_cup__1UXXjxA74ZI.mp4",
+          "poster": "posters/Barnini/dessert_cup__1UXXjxA74ZI.jpg",
+          "duration": 5.062,
+          "width": 848,
+          "height": 480,
+          "bytes": 5495051,
+          "sha256": "64ae24c50c896a784da4d83a76e80512e5635f2d2c663fa7c05c09f4dcda25b3"
+        },
+        "TempAct": {
+          "path": "TempAct/dessert_cup__1UXXjxA74ZI.mp4",
+          "poster": "posters/TempAct/dessert_cup__1UXXjxA74ZI.jpg",
+          "duration": 9.062,
+          "width": 832,
+          "height": 480,
+          "bytes": 7549207,
+          "sha256": "34138e2f0b6a85fc1c8adfac0258d969e28067b765763f021302e74ce2b52af6"
+        },
+        "PhysAgent": {
+          "path": "PhysAgent/dessert_cup__1UXXjxA74ZI.mp4",
+          "poster": "posters/PhysAgent/dessert_cup__1UXXjxA74ZI.jpg",
+          "duration": 16.1,
+          "width": 832,
+          "height": 480,
+          "bytes": 10666412,
+          "sha256": "fe570d65f9224cbfc7b4887e7b97239570664a32489b18a2ed0e6599d4bbc469"
+        }
+      }
+    },
+    {
+      "id": "flower_vase_arrangement__-fuTgEn36XY",
+      "filename": "flower_vase_arrangement__-fuTgEn36XY.mp4",
+      "title": "Flower Arrangement",
+      "category": "Crafts",
+      "videos": {
+        "Our": {
+          "path": "Our/flower_vase_arrangement__-fuTgEn36XY.mp4",
+          "poster": "posters/Our/flower_vase_arrangement__-fuTgEn36XY.jpg",
+          "duration": 41.312,
+          "width": 832,
+          "height": 480,
+          "bytes": 4204531,
+          "sha256": "aa39617c55c020e9446387739b9db119f831e73ca5c14a78da091513c916688f"
+        },
+        "Cosmos2.5": {
+          "path": "Cosmos2.5/flower_vase_arrangement__-fuTgEn36XY.mp4",
+          "poster": "posters/Cosmos2.5/flower_vase_arrangement__-fuTgEn36XY.jpg",
+          "duration": 110.437,
+          "width": 1280,
+          "height": 704,
+          "bytes": 18003696,
+          "sha256": "b613493c43a4793e96be93aa538650240e7b9d701204e8b4047e6c97a8d86d5d"
+        },
+        "HunyuanVideo-1.5": {
+          "path": "HunyuanVideo-1.5/flower_vase_arrangement__-fuTgEn36XY.mp4",
+          "poster": "posters/HunyuanVideo-1.5/flower_vase_arrangement__-fuTgEn36XY.jpg",
+          "duration": 38.0,
+          "width": 848,
+          "height": 480,
+          "bytes": 4467035,
+          "sha256": "e616609ce34f9a57534dd30bd00898052b79696dc161c5de5bef76c7321f31df"
+        },
+        "MiniMax-H3": {
+          "path": "MiniMax-H3/flower_vase_arrangement__-fuTgEn36XY.mp4",
+          "poster": "posters/MiniMax-H3/flower_vase_arrangement__-fuTgEn36XY.jpg",
+          "duration": 30.0,
+          "width": 960,
+          "height": 544,
+          "bytes": 2380545,
+          "sha256": "e0abddab0c582376809c14638e1117f27b284da9b1a6a110b704153913c42939"
+        },
+        "SkyReels": {
+          "path": "SkyReels/flower_vase_arrangement__-fuTgEn36XY.mp4",
+          "poster": "posters/SkyReels/flower_vase_arrangement__-fuTgEn36XY.jpg",
+          "duration": 30.0,
+          "width": 832,
+          "height": 480,
+          "bytes": 10090425,
+          "sha256": "de59763e35e93cbb4f1b5283035e48870ae59ad1a252d5c81620bbb60b2736b6"
+        },
+        "LTX-2.5": {
+          "path": "LTX-2.5/flower_vase_arrangement__-fuTgEn36XY.mp4",
+          "poster": "posters/LTX-2.5/flower_vase_arrangement__-fuTgEn36XY.jpg",
+          "duration": 30.0,
+          "width": 768,
+          "height": 512,
+          "bytes": 4460365,
+          "sha256": "68870d4b1f06f47f241c6567d24900f978504e4e1280e5373562e8044789691b"
+        },
+        "Barnini": {
+          "path": "Barnini/flower_vase_arrangement__-fuTgEn36XY.mp4",
+          "poster": "posters/Barnini/flower_vase_arrangement__-fuTgEn36XY.jpg",
+          "duration": 5.062,
+          "width": 848,
+          "height": 480,
+          "bytes": 6105976,
+          "sha256": "df25fc7943b0507655b540b703c88a7daffd5b1e71218fb72dec9844acb6947e"
+        },
+        "TempAct": {
+          "path": "TempAct/flower_vase_arrangement__-fuTgEn36XY.mp4",
+          "poster": "posters/TempAct/flower_vase_arrangement__-fuTgEn36XY.jpg",
+          "duration": 15.062,
+          "width": 832,
+          "height": 480,
+          "bytes": 11732172,
+          "sha256": "e89da18ea24a881f062817edd5f3754df4647dd933a153bbdaabe237e6fa4733"
+        },
+        "PhysAgent": {
+          "path": "PhysAgent/flower_vase_arrangement__-fuTgEn36XY.mp4",
+          "poster": "posters/PhysAgent/flower_vase_arrangement__-fuTgEn36XY.jpg",
+          "duration": 24.1,
+          "width": 832,
+          "height": 480,
+          "bytes": 14905154,
+          "sha256": "67a05eb44719745cb9815ddacea3e1b1352976e3c0ca465c6435820568b4b5bf"
+        }
+      }
+    },
+    {
+      "id": "fried_rice__4aIJpuEPdOo",
+      "filename": "fried_rice__4aIJpuEPdOo.mp4",
+      "title": "Fried Rice",
+      "category": "Cooking",
+      "videos": {
+        "Our": {
+          "path": "Our/fried_rice__4aIJpuEPdOo.mp4",
+          "poster": "posters/Our/fried_rice__4aIJpuEPdOo.jpg",
+          "duration": 35.812,
+          "width": 832,
+          "height": 480,
+          "bytes": 4712668,
+          "sha256": "57056cd6af5df0a3d750dfabbda43a6eec7a60c9d0988cfc2f213ba1f3963d23"
+        },
+        "Cosmos2.5": {
+          "path": "Cosmos2.5/fried_rice__4aIJpuEPdOo.mp4",
+          "poster": "posters/Cosmos2.5/fried_rice__4aIJpuEPdOo.jpg",
+          "duration": 75.562,
+          "width": 1280,
+          "height": 704,
+          "bytes": 14661287,
+          "sha256": "1926f2a220cfef939e952079979dbdbd583284cdad4e21d1023911104f1b2ca1"
+        },
+        "HunyuanVideo-1.5": {
+          "path": "HunyuanVideo-1.5/fried_rice__4aIJpuEPdOo.mp4",
+          "poster": "posters/HunyuanVideo-1.5/fried_rice__4aIJpuEPdOo.jpg",
+          "duration": 26.0,
+          "width": 848,
+          "height": 480,
+          "bytes": 2443022,
+          "sha256": "9a2e8fb02d222fd766bd5d9d202beb8d30063deedd53478a5aa2c2c2c121300f"
+        },
+        "MiniMax-H3": {
+          "path": "MiniMax-H3/fried_rice__4aIJpuEPdOo.mp4",
+          "poster": "posters/MiniMax-H3/fried_rice__4aIJpuEPdOo.jpg",
+          "duration": 30.0,
+          "width": 960,
+          "height": 544,
+          "bytes": 3471016,
+          "sha256": "7101c2591245e91c8f44de1552f6584ef1518b7c2a903da3055d286b5c3fe435"
+        },
+        "SkyReels": {
+          "path": "SkyReels/fried_rice__4aIJpuEPdOo.mp4",
+          "poster": "posters/SkyReels/fried_rice__4aIJpuEPdOo.jpg",
+          "duration": 30.0,
+          "width": 832,
+          "height": 480,
+          "bytes": 8908766,
+          "sha256": "ff665d21413b330c1f3d11bbf582fcd625f15d224dc6e8044bb24f5a684b9b2c"
+        },
+        "LTX-2.5": {
+          "path": "LTX-2.5/fried_rice__4aIJpuEPdOo.mp4",
+          "poster": "posters/LTX-2.5/fried_rice__4aIJpuEPdOo.jpg",
+          "duration": 30.0,
+          "width": 768,
+          "height": 512,
+          "bytes": 4014908,
+          "sha256": "d48bb0a7b630871b3619e58b01f92f8b5f55a8f812a82f2728441c23dc20d308"
+        },
+        "Barnini": {
+          "path": "Barnini/fried_rice__4aIJpuEPdOo.mp4",
+          "poster": "posters/Barnini/fried_rice__4aIJpuEPdOo.jpg",
+          "duration": 5.062,
+          "width": 848,
+          "height": 480,
+          "bytes": 6010278,
+          "sha256": "d4e0879e792a4ad07ff9e472e3b83ed6affa27aa9fa7fb1f68c67cfd018dd632"
+        },
+        "TempAct": {
+          "path": "TempAct/fried_rice__4aIJpuEPdOo.mp4",
+          "poster": "posters/TempAct/fried_rice__4aIJpuEPdOo.jpg",
+          "duration": 18.062,
+          "width": 832,
+          "height": 480,
+          "bytes": 15059910,
+          "sha256": "b330036837f7a49ee1050a6b82d7ee730bad21558d65296e57ad6b515c22c06e"
+        },
+        "PhysAgent": {
+          "path": "PhysAgent/fried_rice__4aIJpuEPdOo.mp4",
+          "poster": "posters/PhysAgent/fried_rice__4aIJpuEPdOo.jpg",
+          "duration": 16.1,
+          "width": 832,
+          "height": 480,
+          "bytes": 8681408,
+          "sha256": "21229c20146017dd69638138c3b1bd2b1319d6a1ad405c430aad02066089450d"
+        }
+      }
+    },
+    {
+      "id": "layered_dessert_cup__0sSaiFAQV60",
+      "filename": "layered_dessert_cup__0sSaiFAQV60.mp4",
+      "title": "Chocolate Dessert Cups",
+      "category": "Cooking",
+      "videos": {
+        "Our": {
+          "path": "Our/layered_dessert_cup__0sSaiFAQV60.mp4",
+          "poster": "posters/Our/layered_dessert_cup__0sSaiFAQV60.jpg",
+          "duration": 66.062,
+          "width": 832,
+          "height": 480,
+          "bytes": 7172370,
+          "sha256": "9a51c1d260f7c149cda2eb2e7e534e60f5dcc658db7987cff68dd7ce7fcee1f0"
+        },
+        "Cosmos2.5": {
+          "path": "Cosmos2.5/layered_dessert_cup__0sSaiFAQV60.mp4",
+          "poster": "posters/Cosmos2.5/layered_dessert_cup__0sSaiFAQV60.jpg",
+          "duration": 139.5,
+          "width": 1280,
+          "height": 704,
+          "bytes": 19084366,
+          "sha256": "198f8006e8dab19d481f2c4d481deda5c6f2b886e6bb725f30ddc9028186e337"
+        },
+        "HunyuanVideo-1.5": {
+          "path": "HunyuanVideo-1.5/layered_dessert_cup__0sSaiFAQV60.mp4",
+          "poster": "posters/HunyuanVideo-1.5/layered_dessert_cup__0sSaiFAQV60.jpg",
+          "duration": 48.0,
+          "width": 848,
+          "height": 480,
+          "bytes": 3933783,
+          "sha256": "2fb9e9c54b2b02d944a71698de9e6d242d8fce9e43d62bb3e8692ceb7c291ee5"
+        },
+        "MiniMax-H3": {
+          "path": "MiniMax-H3/layered_dessert_cup__0sSaiFAQV60.mp4",
+          "poster": "posters/MiniMax-H3/layered_dessert_cup__0sSaiFAQV60.jpg",
+          "duration": 30.0,
+          "width": 960,
+          "height": 544,
+          "bytes": 2594777,
+          "sha256": "86f719230300a502fd35cc2ee46e677454d6e7ddb1da7e8fd55d853f60dc9f79"
+        },
+        "SkyReels": {
+          "path": "SkyReels/layered_dessert_cup__0sSaiFAQV60.mp4",
+          "poster": "posters/SkyReels/layered_dessert_cup__0sSaiFAQV60.jpg",
+          "duration": 30.0,
+          "width": 832,
+          "height": 480,
+          "bytes": 11625698,
+          "sha256": "8d95fd2719a9227787a5b0421204f195945ebf2822e049b6671622f15deab77d"
+        },
+        "LTX-2.5": {
+          "path": "LTX-2.5/layered_dessert_cup__0sSaiFAQV60.mp4",
+          "poster": "posters/LTX-2.5/layered_dessert_cup__0sSaiFAQV60.jpg",
+          "duration": 30.0,
+          "width": 768,
+          "height": 512,
+          "bytes": 3105483,
+          "sha256": "ee7f30b4023eaa005e7c52003e9147fb86fa0610c6592a0bc17b575893190ca7"
+        },
+        "Barnini": {
+          "path": "Barnini/layered_dessert_cup__0sSaiFAQV60.mp4",
+          "poster": "posters/Barnini/layered_dessert_cup__0sSaiFAQV60.jpg",
+          "duration": 5.062,
+          "width": 848,
+          "height": 480,
+          "bytes": 4958402,
+          "sha256": "0700b5f77e9251c0686f826e872bfe2355f252ab32db9446cee7c0dc73a2860b"
+        },
+        "TempAct": {
+          "path": "TempAct/layered_dessert_cup__0sSaiFAQV60.mp4",
+          "poster": "posters/TempAct/layered_dessert_cup__0sSaiFAQV60.jpg",
+          "duration": 9.062,
+          "width": 832,
+          "height": 480,
+          "bytes": 6307836,
+          "sha256": "cc6ffad28575de3c7237bd58f882b1c1152ef33eab186e4fc1b5cdbf730e0f14"
+        },
+        "PhysAgent": {
+          "path": "PhysAgent/layered_dessert_cup__0sSaiFAQV60.mp4",
+          "poster": "posters/PhysAgent/layered_dessert_cup__0sSaiFAQV60.jpg",
+          "duration": 16.1,
+          "width": 832,
+          "height": 480,
+          "bytes": 7026832,
+          "sha256": "0cfb30bb03631d2c2d084860e4c4fc38430417d12a8ed5646ac1b45667a1fec2"
+        }
+      }
+    },
+    {
+      "id": "lego_animal__P6L5VjnCrqo",
+      "filename": "lego_animal__P6L5VjnCrqo.mp4",
+      "title": "LEGO Crocodile",
+      "category": "Building blocks",
+      "videos": {
+        "Our": {
+          "path": "Our/lego_animal__P6L5VjnCrqo.mp4",
+          "poster": "posters/Our/lego_animal__P6L5VjnCrqo.jpg",
+          "duration": 68.0,
+          "width": 832,
+          "height": 480,
+          "bytes": 7804752,
+          "sha256": "2e8f5ab120a5e8ef031230c72c3dba4fd96f650460128f2611aef0ffc98bdf03"
+        },
+        "Cosmos2.5": {
+          "path": "Cosmos2.5/lego_animal__P6L5VjnCrqo.mp4",
+          "poster": "posters/Cosmos2.5/lego_animal__P6L5VjnCrqo.jpg",
+          "duration": 226.687,
+          "width": 1280,
+          "height": 704,
+          "bytes": 27023026,
+          "sha256": "aa9b8712772d75707b3e8a9c6c93b87c48b6a764724014ff45294e6a65806292"
+        },
+        "HunyuanVideo-1.5": {
+          "path": "HunyuanVideo-1.5/lego_animal__P6L5VjnCrqo.mp4",
+          "poster": "posters/HunyuanVideo-1.5/lego_animal__P6L5VjnCrqo.jpg",
+          "duration": 78.0,
+          "width": 848,
+          "height": 480,
+          "bytes": 5134417,
+          "sha256": "1c356a9ea0e0dee923516d007b35045611a9854f04d62ed469d80b4cdc081002"
+        },
+        "MiniMax-H3": {
+          "path": "MiniMax-H3/lego_animal__P6L5VjnCrqo.mp4",
+          "poster": "posters/MiniMax-H3/lego_animal__P6L5VjnCrqo.jpg",
+          "duration": 30.0,
+          "width": 960,
+          "height": 544,
+          "bytes": 2782485,
+          "sha256": "50b229af9fbef9ae98fe043ebc2ac5cd537b3b89b5d1be82bf766b8b88ced1df"
+        },
+        "SkyReels": {
+          "path": "SkyReels/lego_animal__P6L5VjnCrqo.mp4",
+          "poster": "posters/SkyReels/lego_animal__P6L5VjnCrqo.jpg",
+          "duration": 30.0,
+          "width": 832,
+          "height": 480,
+          "bytes": 10961249,
+          "sha256": "1733b8d7441928296db423b1a0e222934be818bb383d184c201127ecc3bbd456"
+        },
+        "LTX-2.5": {
+          "path": "LTX-2.5/lego_animal__P6L5VjnCrqo.mp4",
+          "poster": "posters/LTX-2.5/lego_animal__P6L5VjnCrqo.jpg",
+          "duration": 30.0,
+          "width": 768,
+          "height": 512,
+          "bytes": 3725100,
+          "sha256": "14f3a1185f0798ba89ef604b3d4270058aa087a058106774e9b242357897a7e2"
+        },
+        "Barnini": {
+          "path": "Barnini/lego_animal__P6L5VjnCrqo.mp4",
+          "poster": "posters/Barnini/lego_animal__P6L5VjnCrqo.jpg",
+          "duration": 5.062,
+          "width": 848,
+          "height": 480,
+          "bytes": 7025564,
+          "sha256": "0bd0f3df2beab5b3333fd9e578ae4a1779cd1424e3961dc4d1487807cd663ba8"
+        },
+        "TempAct": {
+          "path": "TempAct/lego_animal__P6L5VjnCrqo.mp4",
+          "poster": "posters/TempAct/lego_animal__P6L5VjnCrqo.jpg",
+          "duration": 24.062,
+          "width": 832,
+          "height": 480,
+          "bytes": 19570444,
+          "sha256": "9e0111e243b380190a3103ac3dfb5e2974d6541bbbf7ec97ba8a5a61c4da5b4d"
+        },
+        "PhysAgent": {
+          "path": "PhysAgent/lego_animal__P6L5VjnCrqo.mp4",
+          "poster": "posters/PhysAgent/lego_animal__P6L5VjnCrqo.jpg",
+          "duration": 16.1,
+          "width": 832,
+          "height": 480,
+          "bytes": 9207988,
+          "sha256": "7af255dd3babb2892b84b16a058789811542559f6cee6313ef671110c32cff72"
+        }
+      }
+    },
+    {
+      "id": "pancake__JHR7V5GtrVo",
+      "filename": "pancake__JHR7V5GtrVo.mp4",
+      "title": "Pancakes",
+      "category": "Cooking",
+      "videos": {
+        "Our": {
+          "path": "Our/pancake__JHR7V5GtrVo.mp4",
+          "poster": "posters/Our/pancake__JHR7V5GtrVo.jpg",
+          "duration": 41.312,
+          "width": 832,
+          "height": 480,
+          "bytes": 3677922,
+          "sha256": "28a725e55ba7e94b20a23687c5ad568bd0f851142d6fe086ab112100647cb68d"
+        },
+        "Cosmos2.5": {
+          "path": "Cosmos2.5/pancake__JHR7V5GtrVo.mp4",
+          "poster": "posters/Cosmos2.5/pancake__JHR7V5GtrVo.jpg",
+          "duration": 87.188,
+          "width": 1280,
+          "height": 704,
+          "bytes": 15938140,
+          "sha256": "156d46b4c3e6bd9fa1d219a004e9e7f6216395ebaeb7bae869faccc253b67c9d"
+        },
+        "HunyuanVideo-1.5": {
+          "path": "HunyuanVideo-1.5/pancake__JHR7V5GtrVo.mp4",
+          "poster": "posters/HunyuanVideo-1.5/pancake__JHR7V5GtrVo.jpg",
+          "duration": 30.0,
+          "width": 848,
+          "height": 480,
+          "bytes": 2371165,
+          "sha256": "1477db6c1507c214f80fec3117bc647d6455f4fc7e832c537e47498496e08ce4"
+        },
+        "MiniMax-H3": {
+          "path": "MiniMax-H3/pancake__JHR7V5GtrVo.mp4",
+          "poster": "posters/MiniMax-H3/pancake__JHR7V5GtrVo.jpg",
+          "duration": 30.0,
+          "width": 960,
+          "height": 544,
+          "bytes": 2603917,
+          "sha256": "d18bf4f3bc1f333245144d0beeb4ebc07665039a50060a0cee0e0ba2f1dde62b"
+        },
+        "SkyReels": {
+          "path": "SkyReels/pancake__JHR7V5GtrVo.mp4",
+          "poster": "posters/SkyReels/pancake__JHR7V5GtrVo.jpg",
+          "duration": 30.0,
+          "width": 832,
+          "height": 480,
+          "bytes": 13053798,
+          "sha256": "2742f10547f5c365357e3f1efe0bbba237a6594cfb48268c7fd379d422183960"
+        },
+        "LTX-2.5": {
+          "path": "LTX-2.5/pancake__JHR7V5GtrVo.mp4",
+          "poster": "posters/LTX-2.5/pancake__JHR7V5GtrVo.jpg",
+          "duration": 30.0,
+          "width": 768,
+          "height": 512,
+          "bytes": 3356923,
+          "sha256": "391cc469be10fedab61a9f2b62c809df20ba04488c742d131f13b520a51b9500"
+        },
+        "Barnini": {
+          "path": "Barnini/pancake__JHR7V5GtrVo.mp4",
+          "poster": "posters/Barnini/pancake__JHR7V5GtrVo.jpg",
+          "duration": 5.062,
+          "width": 848,
+          "height": 480,
+          "bytes": 5205234,
+          "sha256": "ff32498940c560c3a92f5c12aa97be4319272ed4e389f9d2a51d8552223b7db7"
+        },
+        "TempAct": {
+          "path": "TempAct/pancake__JHR7V5GtrVo.mp4",
+          "poster": "posters/TempAct/pancake__JHR7V5GtrVo.jpg",
+          "duration": 18.062,
+          "width": 832,
+          "height": 480,
+          "bytes": 16960908,
+          "sha256": "dbddfb2814d65ed99e467d8429c26114e741bc046a7f24f3666857606933d18f"
+        },
+        "PhysAgent": {
+          "path": "PhysAgent/pancake__JHR7V5GtrVo.mp4",
+          "poster": "posters/PhysAgent/pancake__JHR7V5GtrVo.jpg",
+          "duration": 16.1,
+          "width": 832,
+          "height": 480,
+          "bytes": 8942704,
+          "sha256": "43a1550ccc285632441aabb72cbb38467480c34fc7d837dceea56d2ca946bc35"
+        }
+      }
+    },
+    {
+      "id": "paper_airplane_supp_0",
+      "filename": "paper_airplane_supp_0.mp4",
+      "title": "Paper Airplane",
+      "category": "Paper folding",
+      "videos": {
+        "Our": {
+          "path": "Our/paper_airplane_supp_0.mp4",
+          "poster": "posters/Our/paper_airplane_supp_0.jpg",
+          "duration": 34.5,
+          "width": 832,
+          "height": 480,
+          "bytes": 9201069,
+          "sha256": "336e8e9242084ff5c59a3cfeb044db69a0f56a454511e413172fb62a7772d8db"
+        },
+        "Cosmos2.5": {
+          "path": "Cosmos2.5/paper_airplane_supp_0.mp4",
+          "poster": "posters/Cosmos2.5/paper_airplane_supp_0.jpg",
+          "duration": 60.0,
+          "width": 1280,
+          "height": 704,
+          "bytes": 12437681,
+          "sha256": "9938f44c4e166a9b975fbd8594bca411a41ed9becbc3c311022e93df93515312"
+        },
+        "HunyuanVideo-1.5": {
+          "path": "HunyuanVideo-1.5/paper_airplane_supp_0.mp4",
+          "poster": "posters/HunyuanVideo-1.5/paper_airplane_supp_0.jpg",
+          "duration": 60.0,
+          "width": 848,
+          "height": 480,
+          "bytes": 34397883,
+          "sha256": "ad11d8d0c0ebcdb1646c27601fc53a688b81421580d6d10def9b2d93df9505ed"
+        },
+        "MiniMax-H3": {
+          "path": "MiniMax-H3/paper_airplane_supp_0.mp4",
+          "poster": "posters/MiniMax-H3/paper_airplane_supp_0.jpg",
+          "duration": 30.0,
+          "width": 960,
+          "height": 544,
+          "bytes": 2842929,
+          "sha256": "68a45067437816f26c84fc88d6f272ac3af4c5ffa255d8e02f468a08c611317b"
+        },
+        "SkyReels": {
+          "path": "SkyReels/paper_airplane_supp_0.mp4",
+          "poster": "posters/SkyReels/paper_airplane_supp_0.jpg",
+          "duration": 30.0,
+          "width": 832,
+          "height": 480,
+          "bytes": 8020665,
+          "sha256": "8d09a85be2bf94ab06bbad75cd933aa2f89c47a0d50178146ad57b0d59ab4f99"
+        },
+        "LTX-2.5": {
+          "path": "LTX-2.5/paper_airplane_supp_0.mp4",
+          "poster": "posters/LTX-2.5/paper_airplane_supp_0.jpg",
+          "duration": 30.0,
+          "width": 768,
+          "height": 512,
+          "bytes": 3000173,
+          "sha256": "2feb47dbd1e08d6065cbdff41d93d2f364c6d216846d49398145b8df22f5048a"
+        },
+        "Barnini": {
+          "path": "Barnini/paper_airplane_supp_0.mp4",
+          "poster": "posters/Barnini/paper_airplane_supp_0.jpg",
+          "duration": 5.062,
+          "width": 848,
+          "height": 480,
+          "bytes": 8027019,
+          "sha256": "a1287b355faf3223018a622c7951f760f86378f424de019aed9206dca46a36fc"
+        },
+        "TempAct": {
+          "path": "TempAct/paper_airplane_supp_0.mp4",
+          "poster": "posters/TempAct/paper_airplane_supp_0.jpg",
+          "duration": 18.062,
+          "width": 832,
+          "height": 480,
+          "bytes": 10431465,
+          "sha256": "0f4b1f8a950e9646e8f48f8fcbf41e9b360ecd9d30662d1819ce95627fddc46c"
+        },
+        "PhysAgent": {
+          "path": "PhysAgent/paper_airplane_supp_0.mp4",
+          "poster": "posters/PhysAgent/paper_airplane_supp_0.jpg",
+          "duration": 16.1,
+          "width": 832,
+          "height": 480,
+          "bytes": 8549773,
+          "sha256": "969d902a2567cf79e3c2baa2d902bdd618dc771d0ff81a91bd1d3b586e009411"
+        }
+      }
+    },
+    {
+      "id": "paper_airplane_supp_complex_16",
+      "filename": "paper_airplane_supp_complex_16.mp4",
+      "title": "Paper Airplane",
+      "category": "Paper folding",
+      "videos": {
+        "Our": {
+          "path": "Our/paper_airplane_supp_complex_16.mp4",
+          "poster": "posters/Our/paper_airplane_supp_complex_16.jpg",
+          "duration": 34.5,
+          "width": 832,
+          "height": 480,
+          "bytes": 10451620,
+          "sha256": "3cb067735e9549ffed2e80a96968e98888c6a509259067e1313afdd330b1221c"
+        },
+        "Cosmos2.5": {
+          "path": "Cosmos2.5/paper_airplane_supp_complex_16.mp4",
+          "poster": "posters/Cosmos2.5/paper_airplane_supp_complex_16.jpg",
+          "duration": 60.0,
+          "width": 1280,
+          "height": 704,
+          "bytes": 13139052,
+          "sha256": "06758b1b0c4657a80df61d485b40277043991fbd93e5220b1fc434bbf6d76ea7"
+        },
+        "HunyuanVideo-1.5": {
+          "path": "HunyuanVideo-1.5/paper_airplane_supp_complex_16.mp4",
+          "poster": "posters/HunyuanVideo-1.5/paper_airplane_supp_complex_16.jpg",
+          "duration": 60.0,
+          "width": 848,
+          "height": 480,
+          "bytes": 35444904,
+          "sha256": "01355f86f57321dd43ea3c350dc37f6ddd6c8d230d91bcc38a543628d392733e"
+        },
+        "MiniMax-H3": {
+          "path": "MiniMax-H3/paper_airplane_supp_complex_16.mp4",
+          "poster": "posters/MiniMax-H3/paper_airplane_supp_complex_16.jpg",
+          "duration": 30.0,
+          "width": 960,
+          "height": 544,
+          "bytes": 2479784,
+          "sha256": "05e1a2c9f576d43ca2957df5d08a1b44d43bcffc2bf344ce34bf02e8a5aa0bf3"
+        },
+        "SkyReels": {
+          "path": "SkyReels/paper_airplane_supp_complex_16.mp4",
+          "poster": "posters/SkyReels/paper_airplane_supp_complex_16.jpg",
+          "duration": 30.0,
+          "width": 832,
+          "height": 480,
+          "bytes": 10350290,
+          "sha256": "ad1c9a244cde641009b61ec3e160b033c41f50979922947f947c5bfb35b51bac"
+        },
+        "LTX-2.5": {
+          "path": "LTX-2.5/paper_airplane_supp_complex_16.mp4",
+          "poster": "posters/LTX-2.5/paper_airplane_supp_complex_16.jpg",
+          "duration": 30.0,
+          "width": 768,
+          "height": 512,
+          "bytes": 3327473,
+          "sha256": "7da78780037748b43d87c2ad085af091a060c67399783564141f7dd1e616bcdb"
+        },
+        "Barnini": {
+          "path": "Barnini/paper_airplane_supp_complex_16.mp4",
+          "poster": "posters/Barnini/paper_airplane_supp_complex_16.jpg",
+          "duration": 5.062,
+          "width": 848,
+          "height": 480,
+          "bytes": 8209760,
+          "sha256": "a7fc1cbd80fef71c479217098c5c9f30b19a210752c0cb3765a2349de92e657c"
+        },
+        "TempAct": {
+          "path": "TempAct/paper_airplane_supp_complex_16.mp4",
+          "poster": "posters/TempAct/paper_airplane_supp_complex_16.jpg",
+          "duration": 18.062,
+          "width": 832,
+          "height": 480,
+          "bytes": 11727784,
+          "sha256": "86670518b127bee13929cefe601b24156f53c00a0038e4dd7f289bac6fcfeb8e"
+        },
+        "PhysAgent": {
+          "path": "PhysAgent/paper_airplane_supp_complex_16.mp4",
+          "poster": "posters/PhysAgent/paper_airplane_supp_complex_16.jpg",
+          "duration": 40.1,
+          "width": 832,
+          "height": 480,
+          "bytes": 20871313,
+          "sha256": "1bcd96f66c4007f77e0d6d6e4d41edbe78e448ff807e38ec22e56abdcd6b776a"
+        }
+      }
+    },
+    {
+      "id": "paper_boat_13",
+      "filename": "paper_boat_13.mp4",
+      "title": "Paper Boat",
+      "category": "Paper folding",
+      "videos": {
+        "Our": {
+          "path": "Our/paper_boat_13.mp4",
+          "poster": "posters/Our/paper_boat_13.jpg",
+          "duration": 57.5,
+          "width": 832,
+          "height": 480,
+          "bytes": 7284049,
+          "sha256": "24141b58d9b1a35ebdf842cc81bbd2eb0d9a66469cf8d76bc5e8247bb106bfa7"
+        },
+        "Cosmos2.5": {
+          "path": "Cosmos2.5/paper_boat_13.mp4",
+          "poster": "posters/Cosmos2.5/paper_boat_13.jpg",
+          "duration": 60.0,
+          "width": 1280,
+          "height": 704,
+          "bytes": 11578681,
+          "sha256": "e4ec7abfd0cba49e79414ef050292eb06a6d6c1c249a4bc7fb19bfd7d32f07a9"
+        },
+        "HunyuanVideo-1.5": {
+          "path": "HunyuanVideo-1.5/paper_boat_13.mp4",
+          "poster": "posters/HunyuanVideo-1.5/paper_boat_13.jpg",
+          "duration": 60.0,
+          "width": 848,
+          "height": 480,
+          "bytes": 30600434,
+          "sha256": "d21a4e76dd83d41aeee7a7bd7e790733b116310e26d299c0569b8dba043cd27e"
+        },
+        "MiniMax-H3": {
+          "path": "MiniMax-H3/paper_boat_13.mp4",
+          "poster": "posters/MiniMax-H3/paper_boat_13.jpg",
+          "duration": 30.0,
+          "width": 960,
+          "height": 544,
+          "bytes": 2156102,
+          "sha256": "19ef7c90e910ed55a3e0ab69230e6ea371bc08201d588322089563d325b61b42"
+        },
+        "SkyReels": {
+          "path": "SkyReels/paper_boat_13.mp4",
+          "poster": "posters/SkyReels/paper_boat_13.jpg",
+          "duration": 30.0,
+          "width": 832,
+          "height": 480,
+          "bytes": 11390071,
+          "sha256": "787e52a7e3e473157800d4c2bf74f9d853043e5fa17257f1bbb466cffc67c7e0"
+        },
+        "LTX-2.5": {
+          "path": "LTX-2.5/paper_boat_13.mp4",
+          "poster": "posters/LTX-2.5/paper_boat_13.jpg",
+          "duration": 30.0,
+          "width": 768,
+          "height": 512,
+          "bytes": 3456851,
+          "sha256": "74e2f16b0c35469a90eb67bd290dbfb809a96a8c43b30d1edc7aec5f4b2b18c5"
+        },
+        "Barnini": {
+          "path": "Barnini/paper_boat_13.mp4",
+          "poster": "posters/Barnini/paper_boat_13.jpg",
+          "duration": 5.062,
+          "width": 848,
+          "height": 480,
+          "bytes": 6431609,
+          "sha256": "3526594e1a652f4f13ca49f78f27d1a4355617ed46dfba49fd61e60f9384e738"
+        },
+        "TempAct": {
+          "path": "TempAct/paper_boat_13.mp4",
+          "poster": "posters/TempAct/paper_boat_13.jpg",
+          "duration": 12.062,
+          "width": 832,
+          "height": 480,
+          "bytes": 9434690,
+          "sha256": "f027f44acb3a1db6c2808715b103717b7c028d74c1c7725ca116c9353f02f74c"
+        },
+        "PhysAgent": {
+          "path": "PhysAgent/paper_boat_13.mp4",
+          "poster": "posters/PhysAgent/paper_boat_13.jpg",
+          "duration": 16.1,
+          "width": 832,
+          "height": 480,
+          "bytes": 10209018,
+          "sha256": "23fa3df3043b0ab726c057c66f1c50681718a81e1714f75c628205a27484030a"
+        }
+      }
+    },
+    {
+      "id": "paper_boat_supp_complex_46",
+      "filename": "paper_boat_supp_complex_46.mp4",
+      "title": "Paper Boat",
+      "category": "Paper folding",
+      "videos": {
+        "Our": {
+          "path": "Our/paper_boat_supp_complex_46.mp4",
+          "poster": "posters/Our/paper_boat_supp_complex_46.jpg",
+          "duration": 40.25,
+          "width": 832,
+          "height": 480,
+          "bytes": 16517010,
+          "sha256": "f9b1ac314ef0b0c6c55a2d32c7b6c13765f4a723eff051c31fd47f7b9a2fc6ff"
+        },
+        "Cosmos2.5": {
+          "path": "Cosmos2.5/paper_boat_supp_complex_46.mp4",
+          "poster": "posters/Cosmos2.5/paper_boat_supp_complex_46.jpg",
+          "duration": 60.0,
+          "width": 1280,
+          "height": 704,
+          "bytes": 11449818,
+          "sha256": "b62ee9fe59d54fcec95df484a46c9644bb6d0d61d2767a033a1eea42bca6b3b7"
+        },
+        "HunyuanVideo-1.5": {
+          "path": "HunyuanVideo-1.5/paper_boat_supp_complex_46.mp4",
+          "poster": "posters/HunyuanVideo-1.5/paper_boat_supp_complex_46.jpg",
+          "duration": 60.0,
+          "width": 848,
+          "height": 480,
+          "bytes": 33511456,
+          "sha256": "0b3dfd6ea3410f98a80123a6494939d2a07961988ecbb38ff6cfecec5589b1c7"
+        },
+        "MiniMax-H3": {
+          "path": "MiniMax-H3/paper_boat_supp_complex_46.mp4",
+          "poster": "posters/MiniMax-H3/paper_boat_supp_complex_46.jpg",
+          "duration": 30.0,
+          "width": 960,
+          "height": 544,
+          "bytes": 2426336,
+          "sha256": "147696e7131a087d38bc608de9e7227015ace527bb8939377c651300e73844df"
+        },
+        "SkyReels": {
+          "path": "SkyReels/paper_boat_supp_complex_46.mp4",
+          "poster": "posters/SkyReels/paper_boat_supp_complex_46.jpg",
+          "duration": 30.0,
+          "width": 832,
+          "height": 480,
+          "bytes": 12402973,
+          "sha256": "5c77f468d7c00277aa55b1c8b61971b053ee263a95335cc66ceddd9622b74312"
+        },
+        "LTX-2.5": {
+          "path": "LTX-2.5/paper_boat_supp_complex_46.mp4",
+          "poster": "posters/LTX-2.5/paper_boat_supp_complex_46.jpg",
+          "duration": 30.0,
+          "width": 768,
+          "height": 512,
+          "bytes": 3619791,
+          "sha256": "de1de5cf80fbf7e6d899630cf7da0f752dad86e46b396d56dc79bc448f9efa49"
+        },
+        "Barnini": {
+          "path": "Barnini/paper_boat_supp_complex_46.mp4",
+          "poster": "posters/Barnini/paper_boat_supp_complex_46.jpg",
+          "duration": 5.062,
+          "width": 848,
+          "height": 480,
+          "bytes": 8508377,
+          "sha256": "405f680e2dfd4d740af4b55eb4d11f329bb5772b5c23d8d543e26f6fe268dae5"
+        },
+        "TempAct": {
+          "path": "TempAct/paper_boat_supp_complex_46.mp4",
+          "poster": "posters/TempAct/paper_boat_supp_complex_46.jpg",
+          "duration": 12.062,
+          "width": 832,
+          "height": 480,
+          "bytes": 9285262,
+          "sha256": "3b238314dded1b1c37d8794b83164bce602829e92199e0ad33cfe240cf63ec84"
+        },
+        "PhysAgent": {
+          "path": "PhysAgent/paper_boat_supp_complex_46.mp4",
+          "poster": "posters/PhysAgent/paper_boat_supp_complex_46.jpg",
+          "duration": 16.1,
+          "width": 832,
+          "height": 480,
+          "bytes": 12440218,
+          "sha256": "6dca0b1b0923ef91ed91f48869381e430871aa8f4827f2a613b3c7ea00389f52"
+        }
+      }
+    },
+    {
+      "id": "paper_crown__FmAKEhpDE_s",
+      "filename": "paper_crown__FmAKEhpDE_s.mp4",
+      "title": "Paper Crown",
+      "category": "Paper folding",
+      "videos": {
+        "Our": {
+          "path": "Our/paper_crown__FmAKEhpDE_s.mp4",
+          "poster": "posters/Our/paper_crown__FmAKEhpDE_s.jpg",
+          "duration": 85.312,
+          "width": 832,
+          "height": 480,
+          "bytes": 4665320,
+          "sha256": "8062a5d24957936e37be2297a4f3b2e13588c98cf2555ed44c482bed348ec468"
+        },
+        "Cosmos2.5": {
+          "path": "Cosmos2.5/paper_crown__FmAKEhpDE_s.mp4",
+          "poster": "posters/Cosmos2.5/paper_crown__FmAKEhpDE_s.jpg",
+          "duration": 180.187,
+          "width": 1280,
+          "height": 704,
+          "bytes": 23167249,
+          "sha256": "4808ea2c1435134957939e730075e0e9cab0e11d1a3266a4e300551b5eba29e0"
+        },
+        "HunyuanVideo-1.5": {
+          "path": "HunyuanVideo-1.5/paper_crown__FmAKEhpDE_s.mp4",
+          "poster": "posters/HunyuanVideo-1.5/paper_crown__FmAKEhpDE_s.jpg",
+          "duration": 62.0,
+          "width": 848,
+          "height": 480,
+          "bytes": 3218135,
+          "sha256": "d877fa8cd846bb0db59f2df7ef0b64e706f91ccf616dfcb19de47958f7ba4c0a"
+        },
+        "MiniMax-H3": {
+          "path": "MiniMax-H3/paper_crown__FmAKEhpDE_s.mp4",
+          "poster": "posters/MiniMax-H3/paper_crown__FmAKEhpDE_s.jpg",
+          "duration": 30.0,
+          "width": 960,
+          "height": 544,
+          "bytes": 2303498,
+          "sha256": "ccf39978c8c4cafd84a04789f1eea16a51cb39c50298807d7b7134068b095d8a"
+        },
+        "SkyReels": {
+          "path": "SkyReels/paper_crown__FmAKEhpDE_s.mp4",
+          "poster": "posters/SkyReels/paper_crown__FmAKEhpDE_s.jpg",
+          "duration": 30.0,
+          "width": 832,
+          "height": 480,
+          "bytes": 10366515,
+          "sha256": "aae34a1092babf8c7c2146fc06defd5ad07d558cfc5dc0ade76d549c0cf1591e"
+        },
+        "LTX-2.5": {
+          "path": "LTX-2.5/paper_crown__FmAKEhpDE_s.mp4",
+          "poster": "posters/LTX-2.5/paper_crown__FmAKEhpDE_s.jpg",
+          "duration": 30.0,
+          "width": 768,
+          "height": 512,
+          "bytes": 4251918,
+          "sha256": "3159ec8ffbc9caeee27494fc84830cbc9be97a88ea998fd6f21a1650183a81dc"
+        },
+        "Barnini": {
+          "path": "Barnini/paper_crown__FmAKEhpDE_s.mp4",
+          "poster": "posters/Barnini/paper_crown__FmAKEhpDE_s.jpg",
+          "duration": 5.062,
+          "width": 848,
+          "height": 480,
+          "bytes": 6945887,
+          "sha256": "2a4946d70c62aa14990741e35cbffc68357b94373e997d4a1ce85e1a236fa513"
+        },
+        "TempAct": {
+          "path": "TempAct/paper_crown__FmAKEhpDE_s.mp4",
+          "poster": "posters/TempAct/paper_crown__FmAKEhpDE_s.jpg",
+          "duration": 12.062,
+          "width": 832,
+          "height": 480,
+          "bytes": 8690069,
+          "sha256": "639723085536832c73998d84b125a3256d4ae82296413cdbf62e6b7e9f0cb4e5"
+        },
+        "PhysAgent": {
+          "path": "PhysAgent/paper_crown__FmAKEhpDE_s.mp4",
+          "poster": "posters/PhysAgent/paper_crown__FmAKEhpDE_s.jpg",
+          "duration": 16.1,
+          "width": 832,
+          "height": 480,
+          "bytes": 8283234,
+          "sha256": "335729adb4f929f256f26753e435a8c4f780806da930b6a05b09ef38c010231a"
+        }
+      }
+    },
+    {
+      "id": "paper_fan__NfE_PPQSOpg",
+      "filename": "paper_fan__NfE_PPQSOpg.mp4",
+      "title": "Paper Fan",
+      "category": "Paper folding",
+      "videos": {
+        "Our": {
+          "path": "Our/paper_fan__NfE_PPQSOpg.mp4",
+          "poster": "posters/Our/paper_fan__NfE_PPQSOpg.jpg",
+          "duration": 77.062,
+          "width": 832,
+          "height": 480,
+          "bytes": 6148365,
+          "sha256": "a3a9934eb0ac27b2b5ea5037e5fa81a7aba361d326a37c3f3cf8a36eeebf663a"
+        },
+        "Cosmos2.5": {
+          "path": "Cosmos2.5/paper_fan__NfE_PPQSOpg.mp4",
+          "poster": "posters/Cosmos2.5/paper_fan__NfE_PPQSOpg.jpg",
+          "duration": 162.75,
+          "width": 1280,
+          "height": 704,
+          "bytes": 29406414,
+          "sha256": "4fe359b3584b3aecd12ed8a1b4e8d19a34d0149e3144dcc335188d7c7a65b8b5"
+        },
+        "HunyuanVideo-1.5": {
+          "path": "HunyuanVideo-1.5/paper_fan__NfE_PPQSOpg.mp4",
+          "poster": "posters/HunyuanVideo-1.5/paper_fan__NfE_PPQSOpg.jpg",
+          "duration": 56.0,
+          "width": 848,
+          "height": 480,
+          "bytes": 4595866,
+          "sha256": "5c6f794af5c1040e5e99ecf388daa19c9a80f4b06d2b5cd3de7b3e00c456bf89"
+        },
+        "MiniMax-H3": {
+          "path": "MiniMax-H3/paper_fan__NfE_PPQSOpg.mp4",
+          "poster": "posters/MiniMax-H3/paper_fan__NfE_PPQSOpg.jpg",
+          "duration": 30.0,
+          "width": 960,
+          "height": 544,
+          "bytes": 3922815,
+          "sha256": "c6405385b72284ede2e92f6631c3ef65d6371e9f018d19ad7b3645eff3d52c37"
+        },
+        "SkyReels": {
+          "path": "SkyReels/paper_fan__NfE_PPQSOpg.mp4",
+          "poster": "posters/SkyReels/paper_fan__NfE_PPQSOpg.jpg",
+          "duration": 30.0,
+          "width": 832,
+          "height": 480,
+          "bytes": 10740238,
+          "sha256": "b2b8a45d4c48fc0b3dbdb3e6d45ee04f367b18b9acc0b0836827ec6c693571b9"
+        },
+        "LTX-2.5": {
+          "path": "LTX-2.5/paper_fan__NfE_PPQSOpg.mp4",
+          "poster": "posters/LTX-2.5/paper_fan__NfE_PPQSOpg.jpg",
+          "duration": 30.0,
+          "width": 768,
+          "height": 512,
+          "bytes": 4085386,
+          "sha256": "0d8f82c8ecdfcfb9dce79f0048aa27d33a13c11c697904a971d263c41a3d3bfc"
+        },
+        "Barnini": {
+          "path": "Barnini/paper_fan__NfE_PPQSOpg.mp4",
+          "poster": "posters/Barnini/paper_fan__NfE_PPQSOpg.jpg",
+          "duration": 5.062,
+          "width": 848,
+          "height": 480,
+          "bytes": 6619286,
+          "sha256": "d742d6b3641d198f6de92ccc008892d516b38a409c1786a465255f8d712be6fb"
+        },
+        "TempAct": {
+          "path": "TempAct/paper_fan__NfE_PPQSOpg.mp4",
+          "poster": "posters/TempAct/paper_fan__NfE_PPQSOpg.jpg",
+          "duration": 15.062,
+          "width": 832,
+          "height": 480,
+          "bytes": 10434527,
+          "sha256": "3a196fbd62e56056b2a908fe758e7267f1b470627d5af2ae178d69b41414bbe0"
+        },
+        "PhysAgent": {
+          "path": "PhysAgent/paper_fan__NfE_PPQSOpg.mp4",
+          "poster": "posters/PhysAgent/paper_fan__NfE_PPQSOpg.jpg",
+          "duration": 16.1,
+          "width": 832,
+          "height": 480,
+          "bytes": 9685285,
+          "sha256": "1669ed745c57781981dcc6f24de1913f7992180cadac1322012348d16629b8db"
+        }
+      }
+    },
+    {
+      "id": "sushi_roll__2lxJ86T3NyI",
+      "filename": "sushi_roll__2lxJ86T3NyI.mp4",
+      "title": "Sushi Roll",
+      "category": "Cooking",
+      "videos": {
+        "Our": {
+          "path": "Our/sushi_roll__2lxJ86T3NyI.mp4",
+          "poster": "posters/Our/sushi_roll__2lxJ86T3NyI.jpg",
+          "duration": 42.0,
+          "width": 832,
+          "height": 480,
+          "bytes": 5094081,
+          "sha256": "1bbde03f314ed1fe56d2dc4f99b7e7ec8e3e2da7c9992bb7c399b2a818476a89"
+        },
+        "Cosmos2.5": {
+          "path": "Cosmos2.5/sushi_roll__2lxJ86T3NyI.mp4",
+          "poster": "posters/Cosmos2.5/sushi_roll__2lxJ86T3NyI.jpg",
+          "duration": 122.062,
+          "width": 1280,
+          "height": 704,
+          "bytes": 17151003,
+          "sha256": "4522c56266186676fc7d63e315d5c4c84b59f28c0fd1f9b6d7f90bd39aeda3c2"
+        },
+        "HunyuanVideo-1.5": {
+          "path": "HunyuanVideo-1.5/sushi_roll__2lxJ86T3NyI.mp4",
+          "poster": "posters/HunyuanVideo-1.5/sushi_roll__2lxJ86T3NyI.jpg",
+          "duration": 42.0,
+          "width": 848,
+          "height": 480,
+          "bytes": 2759386,
+          "sha256": "402e4def8d3396a080dcde1d19647dc6bac030b9315cabe76fffd358fa05bf07"
+        },
+        "MiniMax-H3": {
+          "path": "MiniMax-H3/sushi_roll__2lxJ86T3NyI.mp4",
+          "poster": "posters/MiniMax-H3/sushi_roll__2lxJ86T3NyI.jpg",
+          "duration": 30.0,
+          "width": 960,
+          "height": 544,
+          "bytes": 2424309,
+          "sha256": "8fb25844b10bb36aefbc8f649e21cd5ff45941ab09e87e83895d496a58e9c803"
+        },
+        "SkyReels": {
+          "path": "SkyReels/sushi_roll__2lxJ86T3NyI.mp4",
+          "poster": "posters/SkyReels/sushi_roll__2lxJ86T3NyI.jpg",
+          "duration": 30.0,
+          "width": 832,
+          "height": 480,
+          "bytes": 9292927,
+          "sha256": "e069fe3db1eb88b3caa1a091de772eff84214e59adac42dbdf846a2b6e074d1b"
+        },
+        "LTX-2.5": {
+          "path": "LTX-2.5/sushi_roll__2lxJ86T3NyI.mp4",
+          "poster": "posters/LTX-2.5/sushi_roll__2lxJ86T3NyI.jpg",
+          "duration": 30.0,
+          "width": 768,
+          "height": 512,
+          "bytes": 2488882,
+          "sha256": "d22cbcb960283a4bde4290be5e98c1f0da0a0edb6571c268fd0bd66ede65b10e"
+        },
+        "Barnini": {
+          "path": "Barnini/sushi_roll__2lxJ86T3NyI.mp4",
+          "poster": "posters/Barnini/sushi_roll__2lxJ86T3NyI.jpg",
+          "duration": 5.062,
+          "width": 848,
+          "height": 480,
+          "bytes": 7099357,
+          "sha256": "f5bf10f86e95b78813209ca1aa2e3f8be13fcc730f6f8dc24746ab01410fe0de"
+        },
+        "TempAct": {
+          "path": "TempAct/sushi_roll__2lxJ86T3NyI.mp4",
+          "poster": "posters/TempAct/sushi_roll__2lxJ86T3NyI.jpg",
+          "duration": 12.062,
+          "width": 832,
+          "height": 480,
+          "bytes": 8265805,
+          "sha256": "048db6894e2016c3aa1ac6465c4ec8c4d58f4633d169cf3adfbfeb7e1034d79f"
+        },
+        "PhysAgent": {
+          "path": "PhysAgent/sushi_roll__2lxJ86T3NyI.mp4",
+          "poster": "posters/PhysAgent/sushi_roll__2lxJ86T3NyI.jpg",
+          "duration": 16.1,
+          "width": 832,
+          "height": 480,
+          "bytes": 8275075,
+          "sha256": "554aee3379d60746820faf20e389ee7a8feb5eab07d891bb3f55ca8587f2c294"
+        }
+      }
+    }
+  ]
+}
