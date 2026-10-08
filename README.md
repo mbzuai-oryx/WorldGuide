@@ -11,8 +11,8 @@
 **Mohamed bin Zayed University of Artificial Intelligence**
 
 [![arXiv](https://img.shields.io/badge/arXiv-Paper-b31b1b?logo=arxiv&logoColor=white)](https://arxiv.org/abs/XXXX.XXXXX)
-[![Project Page](https://img.shields.io/badge/Project-Page-2ea44f?logo=googlechrome&logoColor=white)](https://PROJECT_PAGE_URL)
-[![HF Model](https://img.shields.io/badge/🤗%20Hugging%20Face-Model-ffc107)](https://huggingface.co/HF_USER/WorldGuide)
+[![Project Page](https://img.shields.io/badge/Project-Page-2ea44f?logo=googlechrome&logoColor=white)](https://mbzuai-oryx.github.io/WorldGuide/)
+[![HF Model](https://img.shields.io/badge/🤗%20Hugging%20Face-Model-ffc107)](https://huggingface.co/ankanmbz/WorldGuide-Ckpt)
 [![HF Dataset](https://img.shields.io/badge/🤗%20Hugging%20Face-Dataset%20(Coming%20Soon)-ff9d00)](#)
 
 </div>
