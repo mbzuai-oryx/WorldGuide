@@ -1,3 +1,3 @@
-# WorldGuide — academic project page
+# WorldGuide — Research project page
 
 
