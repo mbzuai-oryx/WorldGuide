@@ -96,3 +96,4 @@ html{scroll-padding-top:92px}
 @media(prefers-reduced-motion:reduce){.rail-frame,.rail-frame>span{transition:none}}
 .resource-chip .chip-icon{width:17px;height:17px;font-size:17px;line-height:1;flex:none;margin-right:-3px}
 .resource-chip .ai-arxiv{color:#b31b1b}
+.resource-chip .chip-emoji{width:auto;display:inline-flex;align-items:center;justify-content:center}

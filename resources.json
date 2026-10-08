@@ -1,5 +1,6 @@
 {
   "paper": "",
   "github": "https://github.com/mbzuai-oryx/WorldGuide",
+  "checkpoint": "https://huggingface.co/ankanmbz/WorldGuide-Ckpt",
   "dataset": ""
 }
