@@ -131,10 +131,10 @@ bash scripts/training/run_train_worldguide.sh
 
 ```bibtex
 @article{deria2026worldguide,
-  title   = {WorldGuide: Goal-Directed Video World Model for Procedural Task Execution},
-  author  = {Deria, Ankan and Kumar, Komal and Cholakkal, Hisham and Khan, Fahad Shahbaz and Khan, Salman},
-  journal = {arXiv preprint arXiv:XXXX.XXXXX},
-  year    = {2026}
+  title={WorldGuide: Goal-Directed Video World Model for Procedural Task Execution},
+  author={Deria, Ankan and Kumar, Komal and Cholakkal, Hisham and Khan, Fahad Shahbaz and Khan, Salman},
+  journal={arXiv preprint arXiv:2610.12459},
+  year={2026}
 }
 ```
 
