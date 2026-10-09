@@ -3,14 +3,14 @@
 # WorldGuide: Goal-Directed Video World Model for Procedural Task Execution
 
 <p align="center">
-  <img src="https://i.imgur.com/waxVImv.png" alt="Oryx Video-ChatGPT">
+  <img src="https://i.imgur.com/waxVImv.png" alt="Oryx WorldGuide">
 </p>
 
 [Ankan Deria](https://ankan8145.github.io), [Komal Kumar](https://komalkumar.org), [Hisham Cholakkal](https://hishamcholakkal.com), [Fahad Shahbaz Khan](https://sites.google.com/view/fahadkhans), [Salman Khan](https://salman-h-khan.github.io)
 
 **Mohamed bin Zayed University of Artificial Intelligence**
 
-[![arXiv](https://img.shields.io/badge/arXiv-Paper-b31b1b?logo=arxiv&logoColor=white)](https://arxiv.org/abs/XXXX.XXXXX)
+[![arXiv](https://img.shields.io/badge/arXiv-Paper-b31b1b?logo=arxiv&logoColor=white)](https://arxiv.org/pdf/2610.12459)
 [![Project Page](https://img.shields.io/badge/Project-Page-2ea44f?logo=googlechrome&logoColor=white)](https://mbzuai-oryx.github.io/WorldGuide/)
 [![HF Model](https://img.shields.io/badge/🤗%20Hugging%20Face-Model-ffc107)](https://huggingface.co/ankanmbz/WorldGuide-Ckpt)
 [![HF Dataset](https://img.shields.io/badge/🤗%20Hugging%20Face-Dataset%20(Coming%20Soon)-ff9d00)](#)
