@@ -97,3 +97,6 @@ html{scroll-padding-top:92px}
 .resource-chip .chip-icon{width:17px;height:17px;font-size:17px;line-height:1;flex:none;margin-right:-3px}
 .resource-chip .ai-arxiv{color:#b31b1b}
 .resource-chip .chip-emoji{width:auto;display:inline-flex;align-items:center;justify-content:center}
+.hero .resource-chip[data-resource=paper][href]:hover{background:#fbeaea;border-color:#e3a3a3;color:#8f1616}
+.hero .resource-chip[data-resource=github][href]:hover{background:#f0f1f3;border-color:#b4bac3;color:#24292f}
+.hero .resource-chip[data-resource=checkpoint][href]:hover{background:#fff9e0;border-color:#ecd27a;color:#7a5a00}

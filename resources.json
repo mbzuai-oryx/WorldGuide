@@ -1,5 +1,5 @@
 {
-  "paper": "",
+  "paper": "https://arxiv.org/pdf/2610.12459",
   "github": "https://github.com/mbzuai-oryx/WorldGuide",
   "checkpoint": "https://huggingface.co/ankanmbz/WorldGuide-Ckpt",
   "dataset": ""
